@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*referencia a raiz do projeto*/
+:root {
+    --main-color: #deab5f;
+    --primary-color: #312e2e;
+}
+
+button {
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+/*referente a todos os elementos*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*referente a cor do background inteiro*/
+body {
+    background: #100e0f;
+}
+
+/*Inicio da nav*/
+
+/*referente a barra de navegação*/
+nav {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+
+/*ordenando a lista da barra de navegação para ficar em linha*/
+li {
+    display: inline;
+    list-style: none;
+}
+
+/*estilizando os itens da barra de navegação*/
+li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px; /*espaço entre os itens*/
+    padding-bottom: 10px;
+}
+
+/*estilizando o hover dos itens da barra de navegação*/
+li a:hover {
+    border-bottom: 2px solid var(--main-color);
+}
+
+/*Fim da nav*/
+
+/* Inicio do Header */
+.header {
+    background: url(/Images/pexels-nao-triponez-129207.jpg);
+    background-position: center; 
+    background-size: cover; /*para cobrir toda a tela*/
+    height: 100vh; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+
+    /*flexbox*/
+    display: flex;
+    flex-direction: column; /*a direção será em coluna*/
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+/*referente ao primeiro texto do header*/
+.main-headings {
+    position: absolute; /*para ficar em cima da imagem*/
+    top: 7rem; /*distância do topo*/
+    font-size: 4rem; 
+    word-spacing: 10px; 
+    margin-bottom: -40px; /*espaço entre o primeiro e o segundo texto*/
+}
+
+/*referente ao segundo texto do header*/
+.primary-heading {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+/*referente ao botão do header*/
+.main-btn {
+    position: absolute; 
+    bottom: 2rem; 
+    padding:  10px 30px; /*tamanho do botão*/
+    margin-top: 20px; /*espaço entre o botão e o texto*/
+    background: transparent; 
+    background: var(--main-color);
+    transform: translateY(60px); /*para ficar embaixo do texto*/
+    font-family: 'Montserrat', sans-serif;
+}
