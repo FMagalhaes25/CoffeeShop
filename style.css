@@ -188,7 +188,7 @@ li a:hover {
 /*fim da seção de café*/
 
 /*Inicio da seção de produtos*/
-.products {
+#products {
     margin-top: 5rem;
 }
 
@@ -314,3 +314,68 @@ hr {
 /*fim do footer*/
 
 /*media query para telas menores que 768px*/
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 80vh; /*altura do header*/
+    }
+
+    .main-headings {
+        font-size: 2rem; /*tamanho do texto*/
+        top: 5rem; /*distância do topo*/
+    }
+
+    .primary-heading {
+        font-size: 2rem; /*tamanho do texto*/
+        bottom: 3rem; /*distância do fundo*/
+    }
+
+    .main-btn {
+        padding: 10px 20px; /*tamanho do botão*/
+        bottom: 1rem; /*distância do fundo*/
+    }
+
+    #our-story {
+        text-align: center;
+    }
+
+    #our-story .title {
+        transform: translateX(50px);
+    }
+
+    #our-story .line {
+        display: none; /*esconder a linha*/
+    }
+
+    #our-story .img-container {
+        width: 70%; /*largura da imagem*/
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .coffee-container .img-container {
+        margin-top: 5rem;
+        width: 50%;
+    }
+
+    .content-section {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2rem; /*tamanho do texto*/
+        margin: 0 auto;
+    }
+
+    .title-two {
+        font-size: 2rem; /*tamanho do texto*/
+        margin: 0 auto;
+    }
+
+    .title-three {
+        display: none;
+    }
+    
+    .para {
+        display: none;
+    }
+}
