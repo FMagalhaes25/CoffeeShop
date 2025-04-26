@@ -157,3 +157,32 @@ li a:hover {
 }
 
 /*fim da seção our story*/
+
+/*Inicio da seção de café */
+.coffee-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.img-2 {
+    width: 400px;
+    height: 400px;   
+}
+
+.title-two {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'playfair display', serif;
+}
+
+.content-section p {
+    max-width: 500px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/*fim da seção de café*/
