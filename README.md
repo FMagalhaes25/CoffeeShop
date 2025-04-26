@@ -31,6 +31,8 @@ Uma seção principal com apresentação da cafeteria.
 
 Uma área de destaque para o cardápio.
 
+Um rodapé com informações de contato
+
 Layout responsivo para diferentes tamanhos de tela.
 
 <br>

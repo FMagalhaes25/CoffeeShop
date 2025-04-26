@@ -186,3 +186,77 @@ li a:hover {
 }
 
 /*fim da seção de café*/
+
+/*Inicio da seção de produtos*/
+.products {
+    margin-top: 5rem;
+}
+
+.title-three {
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid var(--main-color); /*borda do card*/
+    padding: 0 20px;
+    height: 400px; /*altura do card*/
+    width: 300px; /*largura do card*/
+    display: flex; 
+    flex-direction: column; /*direção do card*/
+    justify-content: space-around; /*espaço entre os itens do card*/
+    align-items: center; /*alinhamento do card*/
+    border-radius: 5px; /*arredondamento da borda*/
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px; /*tamanho da imagem do card*/
+    position: absolute;
+    top: -60px;
+}
+
+.img-one {
+    background: url(/Images/1.png) ;
+    background-position: center;
+    background-size: cover; /*para cobrir toda a tela*/
+}
+
+.img-two {
+    background: url(/Images/2.png) ;
+    background-position: center;
+    background-size: cover; /*para cobrir toda a tela*/
+}
+
+.img-three {
+    background: url(/Images/3.png) ;
+    background-position: center;
+    background-size: cover; /*para cobrir toda a tela*/
+}
+
+.card-title {
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.card .items p {
+    color: #fff;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+
+/*Fim da seção de produtos*/
+
