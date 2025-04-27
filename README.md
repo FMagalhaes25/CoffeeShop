@@ -42,13 +42,13 @@ Layout responsivo para diferentes tamanhos de tela.
 
 Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/CoffeeShop.git
+git clone https://github.com/seu-usuario/CoffeeShop-WebSite.git
 ```
 
 Navegue até a pasta do projeto:
 
 ```bash
-cd CoffeeShop
+cd CoffeeShop-WebSite
 ```
 Abra o arquivo index.html no seu navegador preferido.
 
